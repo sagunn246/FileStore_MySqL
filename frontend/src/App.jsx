@@ -1,8 +1,8 @@
 import { useState, useEffect, useCallback } from 'react';
 import { storage } from './lib/storage';
-import { FolderNav } from './components/FolderNav';
-import { FileUpload } from './components/FileUpload';
-import { FileList } from './components/FileList';
+import { FolderNav } from './Components/FolderNav';
+import { FileUpload } from './Components/FileUpload';
+import { FileList } from './Components/FileList';
 import { Search, Menu, X } from 'lucide-react';
 
 function App() {
